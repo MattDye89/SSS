@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pearl &amp; Brandon — The Happily Ever After Party</title>
+<meta name="description" content="Parking, arrival time, and the evening schedule for Pearl and Brandon's Happily Ever After Party at 4710 E. 71st Street on September 19, 2026.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Karla:wght@400;500;700&family=Parisienne&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blush:#eae0d8;
+    --paper:#f4ece6;
+    --ink:#4a3a32;
+    --ink-soft:#8a7264;
+    --rust:#a9583a;
+    --ochre:#c98a3f;
+    --mauve:#8e6070;
+    --sage:#7f8a62;
+    --rule:rgba(74,58,50,.16);
+    --display:"Cormorant Garamond",Georgia,serif;
+    --script:"Parisienne",cursive;
+    --body:"Karla",system-ui,-apple-system,sans-serif;
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    margin:0;
+    background:var(--blush);
+    color:var(--ink);
+    font-family:var(--body);
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .wrap{max-width:660px;margin:0 auto;padding:0 22px 90px}
+
+  a{color:var(--rust);text-underline-offset:3px;text-decoration-thickness:1px}
+  a:hover{color:var(--mauve)}
+  :focus-visible{outline:2px solid var(--rust);outline-offset:3px;border-radius:3px}
+
+  .eyebrow{
+    font-size:11px;letter-spacing:.26em;text-transform:uppercase;
+    font-weight:700;color:var(--rust);margin:0 0 14px;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead{text-align:center;padding:44px 0 26px}
+  .sprig{width:112px;height:auto;display:block;margin:0 auto 20px}
+
+  .names{
+    font-family:var(--display);font-weight:300;
+    font-size:clamp(2.6rem,12vw,4.2rem);
+    line-height:.98;letter-spacing:.1em;text-transform:uppercase;
+    margin:0;color:var(--rust);
+  }
+  .amp{
+    display:block;font-family:var(--script);font-size:clamp(1.5rem,6vw,2.1rem);
+    letter-spacing:0;text-transform:none;color:var(--mauve);
+    margin:2px 0 0;line-height:1.4;
+  }
+  .datestamp{
+    margin:22px 0 0;font-family:var(--display);font-weight:400;
+    font-size:1.28rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);
+  }
+  .kicker{
+    font-family:var(--script);font-size:1.28rem;color:var(--ink-soft);
+    margin:14px 0 0;letter-spacing:.02em;
+  }
+
+  .hero-photo{
+    width:100%;height:auto;display:block;margin:30px 0 0;
+    border-radius:2px;box-shadow:0 2px 18px rgba(74,58,50,.14);
+  }
+
+  /* ---------- page title ---------- */
+  .titleblock{text-align:center;padding:46px 0 8px;border-top:1px solid var(--rule);margin-top:38px}
+  .titleblock h1{
+    font-family:var(--display);font-weight:400;
+    font-size:clamp(2rem,7.5vw,2.9rem);line-height:1.1;
+    letter-spacing:.03em;margin:0 0 12px;
+  }
+  .titleblock p{color:var(--ink-soft);margin:0 auto;max-width:44ch}
+
+  /* ---------- sections ---------- */
+  section{padding-top:52px}
+  h2{
+    font-family:var(--display);font-weight:500;
+    font-size:clamp(1.7rem,6vw,2.25rem);line-height:1.15;
+    letter-spacing:.02em;margin:0 0 6px;
+  }
+  h2 + .sub{color:var(--ink-soft);margin:0 0 24px;font-size:.97rem;font-style:italic}
+  h2 + .sub.vibe{
+    font-style:normal;font-weight:700;color:var(--rust);
+    font-size:clamp(1.25rem,4.6vw,1.55rem);letter-spacing:.02em;margin-bottom:20px;
+  }
+  h3{font-family:var(--body);font-size:1rem;font-weight:700;margin:0 0 4px}
+  p{margin:0 0 16px}
+  p:last-child{margin-bottom:0}
+
+  /* ---------- callouts ---------- */
+  .callout{
+    background:var(--paper);border:1px solid var(--rule);
+    border-left:3px solid var(--rust);border-radius:2px;
+    padding:20px 22px;margin:0 0 26px;
+  }
+  .callout.sage{border-left-color:var(--sage)}
+  .callout .tag{
+    display:block;font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:700;color:var(--rust);margin-bottom:8px;
+  }
+  .callout.sage .tag{color:var(--sage)}
+
+  /* ---------- map ---------- */
+  figure{margin:0 0 22px}
+  .map{
+    width:100%;height:auto;display:block;
+    border:1px solid var(--rule);border-radius:2px;background:var(--paper);
+  }
+  figcaption{font-size:.86rem;color:var(--ink-soft);margin-top:10px;font-style:italic}
+
+  /* ---------- run of show ---------- */
+  ol.run{list-style:none;margin:0;padding:0 0 0 32px;position:relative}
+  ol.run::before{
+    content:"";position:absolute;left:5px;top:12px;bottom:12px;
+    width:1px;background:var(--rule);
+  }
+  ol.run li{position:relative;padding-bottom:26px}
+  ol.run li:last-child{padding-bottom:0}
+  ol.run li::before{
+    content:"";position:absolute;left:-31px;top:11px;
+    width:11px;height:11px;border-radius:50%;
+    background:var(--ochre);box-shadow:0 0 0 4px rgba(201,138,63,.18);
+  }
+  .time{
+    font-family:var(--display);font-weight:500;font-size:1.3rem;
+    letter-spacing:.04em;color:var(--rust);display:block;line-height:1.2;margin-bottom:2px;
+  }
+  ol.run p{font-size:.96rem;color:var(--ink-soft);margin:6px 0 0}
+  ol.run p a{color:var(--rust)}
+
+  /* ---------- contact ---------- */
+  .contact{
+    margin-top:54px;padding:28px 22px;border:1px solid var(--rule);
+    border-radius:2px;background:var(--paper);text-align:center;
+  }
+  .contact .num{
+    font-family:var(--display);font-weight:500;font-size:1.7rem;letter-spacing:.05em;
+    display:inline-block;margin:8px 0 4px;text-decoration:none;
+  }
+  .contact .who{font-size:.9rem;color:var(--ink-soft)}
+
+  .signoff{
+    text-align:center;margin-top:46px;font-family:var(--script);
+    font-size:1.7rem;line-height:1.5;color:var(--mauve);
+  }
+
+  @media (prefers-reduced-motion: reduce){*{animation:none !important;transition:none !important}}
+
+  @media print{
+    body{background:#fff}
+    .callout,.contact,.map{background:#fff}
+    .hero-photo{max-height:340px;object-fit:cover}
+    a{color:#000;text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <svg class="sprig" viewBox="0 0 200 88" role="img" aria-label="Floral sprig" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#7f8a62" stroke-width="1.6" fill="none" stroke-linecap="round">
+        <path d="M100 80 C 78 66, 58 58, 34 52"/>
+        <path d="M100 80 C 122 66, 142 58, 166 52"/>
+        <path d="M100 80 C 98 56, 100 38, 104 22"/>
+        <path d="M72 66 C 64 58, 58 52, 48 48"/>
+        <path d="M128 66 C 136 58, 142 52, 152 48"/>
+      </g>
+      <g fill="#7f8a62" opacity=".72">
+        <ellipse cx="46" cy="60" rx="9" ry="4.5" transform="rotate(-22 46 60)"/>
+        <ellipse cx="154" cy="60" rx="9" ry="4.5" transform="rotate(22 154 60)"/>
+        <ellipse cx="86" cy="46" rx="8" ry="4" transform="rotate(-52 86 46)"/>
+        <ellipse cx="116" cy="42" rx="8" ry="4" transform="rotate(52 116 42)"/>
+      </g>
+      <g opacity=".9">
+        <circle cx="104" cy="20" r="9.5" fill="#c9743a"/><circle cx="104" cy="20" r="3.4" fill="#e0a95c"/>
+        <circle cx="76" cy="34" r="7.5" fill="#d99a4b"/><circle cx="76" cy="34" r="2.8" fill="#efd0a0"/>
+        <circle cx="132" cy="32" r="7.5" fill="#b4553a"/><circle cx="132" cy="32" r="2.8" fill="#e8b57e"/>
+        <circle cx="58" cy="46" r="5.5" fill="#d99a4b"/>
+        <circle cx="148" cy="44" r="5.5" fill="#c9743a"/>
+        <circle cx="92" cy="24" r="4" fill="#e2b06a"/>
+        <circle cx="118" cy="22" r="4" fill="#e2b06a"/>
+      </g>
+    </svg>
+
+    <h1 class="names">Pearl<span class="amp">and</span>Brandon</h1>
+    <p class="kicker">please join us for our happily ever after party on</p>
+    <p class="datestamp">September 19, 2026</p>
+
+    <img class="hero-photo" src="images/p_b2.JPEG" alt="Pearl and Brandon under a tent strung with lights" width="2048" height="1536" loading="eager">
+  </header>
+
+  <div class="titleblock">
+    <p class="eyebrow">Happily Ever After Party Guests</p>
+    <h1>Everything you need for the party</h1>
+    <p>Where to park, what to wear, and how the evening runs at Pearl's childhood home — <a href="https://maps.google.com/?q=4710+E+71st+St+Indianapolis+IN">4710 E. 71st St, Indianapolis</a>.</p>
+  </div>
+
+  <!-- ============ PARKING ============ -->
+  <section id="parking">
+    <h2>Getting there</h2>
+
+    <div class="callout">
+      <span class="tag">Start here</span>
+      <p><strong>There is no parking at 4710 E. 71st Street.</strong> We encourage you to use Uber or Lyft.</p>
+    </div>
+
+    <p>If you'd rather drive, <strong>all vehicles park along the West side of Dover Road</strong>, four houses west of 4710. Dover Road runs south from 71st Street — there is no parking on its east side. Available spaces will be marked. From there it's about a <strong>150-yard walk</strong> through neighbor yards to the party — the route is marked with signs.</p>
+
+    <div class="callout sage">
+      <span class="tag">Someone will be there</span>
+      <p>Off-duty officers will be stationed at <strong>the driveway</strong> for rideshare arrivals and at <strong>Dover Road</strong> to escort those who drive.</p>
+    </div>
+
+    <figure>
+      <!--
+        SITE PLAN — VERIFY BEFORE PUBLISHING:
+        1. 4710 is drawn on the NORTH side of E. 71st St.
+        2. Dover Road is drawn crossing 71st St to the WEST of 4710.
+        If #1 is backwards, mirror the north/south blocks and labels vertically.
+        Deliberately not to scale — this is a wayfinding sketch, not a survey.
+      -->
+      <svg class="map" viewBox="0 0 800 560" role="img" aria-labelledby="mapTitle mapDesc" xmlns="http://www.w3.org/2000/svg">
+        <title id="mapTitle">Parking site plan</title>
+        <desc id="mapDesc">East 71st Street runs left to right. 4710 sits on the north side toward the east, with the party tent behind it. Dover Road begins at 71st Street, four houses west of 4710, and runs south only. Parking is along its west side; there is no parking on the east side. A marked walking path runs north up Dover, across 71st Street, then east to 4710. Officers are stationed at the 4710 driveway and at Dover Road.</desc>
+
+        <rect width="800" height="560" fill="#f4ece6"/>
+        <rect x="0" y="0" width="800" height="238" fill="#dee2c9"/>
+        <rect x="0" y="312" width="800" height="248" fill="#dee2c9"/>
+
+        <!-- E 71st Street, yellow centre line -->
+        <rect x="0" y="238" width="800" height="74" fill="#d9cec3"/>
+        <line x1="0" y1="275" x2="800" y2="275" stroke="#e0b93f" stroke-width="4" stroke-dasharray="26 20"/>
+        <text x="336" y="302" fill="#7a6558" font-family="Karla,sans-serif" font-size="25" letter-spacing="4">E. 71ST STREET</text>
+
+        <!-- Dover Road: begins at 71st, runs south only. White centre line. -->
+        <rect x="108" y="312" width="80" height="248" fill="#d9cec3"/>
+        <line x1="148" y1="316" x2="148" y2="560" stroke="#f4ece6" stroke-width="4" stroke-dasharray="22 18"/>
+        <text x="88" y="548" fill="#7a6558" font-family="Karla,sans-serif" font-size="25" letter-spacing="3" transform="rotate(-90 88 548)">DOVER ROAD</text>
+
+        <!-- parking: WEST side of Dover -->
+        <g fill="rgba(169,88,58,.22)" stroke="#a9583a" stroke-width="3">
+          <rect x="110" y="336" width="36" height="34" rx="2"/>
+          <rect x="110" y="380" width="36" height="34" rx="2"/>
+          <rect x="110" y="424" width="36" height="34" rx="2"/>
+          <rect x="110" y="468" width="36" height="34" rx="2"/>
+        </g>
+        <text x="10" y="336" fill="#a9583a" font-family="Karla,sans-serif" font-size="23" font-weight="700">Park on</text>
+        <text x="10" y="362" fill="#a9583a" font-family="Karla,sans-serif" font-size="23" font-weight="700">west side</text>
+
+        <!-- NO parking, east side of Dover -->
+        <g stroke="#a9583a" stroke-width="4.5" stroke-linecap="round" opacity=".85">
+          <path d="M156 340 L182 366 M182 340 L156 366"/>
+          <path d="M156 384 L182 410 M182 384 L156 410"/>
+          <path d="M156 428 L182 454 M182 428 L156 454"/>
+          <path d="M156 472 L182 498 M182 472 L156 498"/>
+        </g>
+        <text x="198" y="362" fill="#a9583a" font-family="Karla,sans-serif" font-size="23" font-weight="700">No parking on</text>
+        <text x="198" y="388" fill="#a9583a" font-family="Karla,sans-serif" font-size="23" font-weight="700">the east side</text>
+
+        <!-- houses along the north side -->
+        <g fill="#e6d9cc" stroke="#c2ab98" stroke-width="2">
+          <rect x="94" y="120" width="86" height="74" rx="3"/>
+          <rect x="200" y="120" width="86" height="74" rx="3"/>
+          <rect x="306" y="120" width="86" height="74" rx="3"/>
+          <rect x="412" y="120" width="86" height="74" rx="3"/>
+          <rect x="518" y="120" width="86" height="74" rx="3"/>
+        </g>
+        <text x="238" y="108" fill="#8a7264" font-family="Karla,sans-serif" font-size="23">4 houses between Dover Rd &amp; 4710</text>
+
+        <!-- 4710 -->
+        <rect x="632" y="106" width="140" height="104" rx="3" fill="#f0e2d4" stroke="#a9583a" stroke-width="3.5"/>
+        <text x="644" y="154" fill="#4a3a32" font-family="Cormorant Garamond,serif" font-size="34" font-weight="500" letter-spacing="2">4710</text>
+        <text x="644" y="184" fill="#7a6558" font-family="Karla,sans-serif" font-size="22">E. 71st St</text>
+        <text x="656" y="84" fill="#a9583a" font-family="Karla,sans-serif" font-size="23" font-weight="700">Party tent</text>
+
+        <!-- officers -->
+        <circle cx="148" cy="300" r="16" fill="rgba(127,138,98,.35)" stroke="#7f8a62" stroke-width="3"/>
+        <text x="174" y="308" fill="#5f6947" font-family="Karla,sans-serif" font-size="22" font-weight="700">Officer</text>
+        <rect x="678" y="210" width="34" height="30" fill="#d9cec3"/>
+        <circle cx="648" cy="232" r="16" fill="rgba(127,138,98,.35)" stroke="#7f8a62" stroke-width="3"/>
+        <text x="302" y="264" fill="#5f6947" font-family="Karla,sans-serif" font-size="22" font-weight="700">Officer at driveway — Uber/Lyft drop-off</text>
+
+        <!-- the walk -->
+        <path d="M 132 332 L 132 216 L 630 216" stroke="#4a3a32" stroke-width="3" stroke-dasharray="12 9" fill="none" marker-end="url(#arrowInk)"/>
+        <text x="250" y="236" fill="#4a3a32" font-family="Karla,sans-serif" font-size="23">≈ 150 yards, marked with signs</text>
+
+        <g transform="translate(756 512)">
+          <line x1="0" y1="26" x2="0" y2="-16" stroke="#8a7264" stroke-width="3"/>
+          <path d="M 0 -26 L 8 -10 L -8 -10 Z" fill="#8a7264"/>
+          <text x="-9" y="46" fill="#8a7264" font-family="Karla,sans-serif" font-size="24" font-weight="700">N</text>
+        </g>
+
+        <defs>
+          <marker id="arrowRust" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+            <path d="M0,0 L9,4.5 L0,9 Z" fill="#a9583a"/>
+          </marker>
+          <marker id="arrowInk" markerWidth="9" markerHeight="9" refX="6" refY="4.5" orient="auto">
+            <path d="M0,0 L9,4.5 L0,9 Z" fill="#4a3a32"/>
+          </marker>
+        </defs>
+      </svg>
+      <figcaption>Not to scale. On the night, follow the signs — they'll be everywhere.</figcaption>
+    </figure>
+
+  </section>
+
+  <!-- ============ ATTIRE ============ -->
+  <section id="attire">
+    <h2>What to wear</h2>
+    <p class="sub vibe">Festive Fall!</p>
+    <p>It's a wedding! So please, no jean shorts and crop tops — and yes, that means you too, Uncle Joe :) Beyond that, we want you comfortable, so wear whatever makes you feel the most awesome.</p>
+    <p><strong>One practical note:</strong> there will be some walking through grass. Choose shoes accordingly.</p>
+  </section>
+
+  <!-- ============ RUN OF SHOW ============ -->
+  <section id="schedule">
+    <h2>The evening, hour by hour</h2>
+    <p class="sub vibe">Saturday, September 19 — 4710 E. 71st Street</p>
+
+    <ol class="run">
+      <li>
+        <span class="time">5:00 PM</span>
+        <h3>Be under the tent</h3>
+        <p>The party starts promptly. Give yourself time to park and walk in.</p>
+      </li>
+      <li>
+        <span class="time">5:10 PM</span>
+        <h3>The grand debut of Mr. and Mrs. Sims</h3>
+        <p>Don't miss it.</p>
+      </li>
+      <li>
+        <span class="time">Then</span>
+        <h3>Cocktail hour, open bar</h3>
+        <p>Poured by our friends at the <a href="https://www.boozebuggymobilebar.com/">Booze Buggy</a>. Find your table and seat — each one marked with a custom nameplate made from trees reclaimed by the groom's father.</p>
+      </li>
+      <li>
+        <span class="time">6:00 PM</span>
+        <h3>Dinner — tables called</h3>
+        <p>BBQ buffet from <a href="https://www.bighoffas.com/">Big Hoffa's</a>, with vegetarian fare available. Pie and ice cream for dessert.</p>
+      </li>
+      <li>
+        <span class="time">7:00 PM</span>
+        <h3>Speeches</h3>
+        <p>From the bride's parents, the best man, and the maid of honor.</p>
+      </li>
+      <li>
+        <span class="time">8:00 PM</span>
+        <h3>First dances, then the dance party</h3>
+        <p>THE MOST INSANE DANCE PARTY of your life! 💃</p>
+      </li>
+      <li>
+        <span class="time">9:50 PM</span>
+        <h3>Last call at the bar</h3>
+      </li>
+      <li>
+        <span class="time">10:00 PM</span>
+        <h3>Closing Time ❤️</h3>
+      </li>
+    </ol>
+  </section>
+
+  <div class="contact">
+    <p class="eyebrow" style="margin-bottom:8px">Questions?</p>
+    <p style="margin:0 0 2px">Please reach out — but preferably not to Pearl and Brandon. Ha!</p>
+    <a class="num" href="tel:+13178693603">317-869-3603</a>
+    <p class="who" style="margin:0">Hannah, maid of honor and Pearl's sister</p>
+  </div>
+
+  <p class="signoff">We cannot wait to celebrate with you<br>Pearl &amp; Brandon</p>
+
+</div>
+</body>
+</html>
